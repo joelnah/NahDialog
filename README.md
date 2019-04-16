@@ -9,7 +9,7 @@ dependencies {
   
   
   
-class MainActivity : AppCompatActivity() {
+    class MainActivity : AppCompatActivity() {
 
     lateinit var dialog: NahDialog
     lateinit var listDialog: NahListDialog
