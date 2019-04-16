@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="end">
+
+<TextView
+    android:id="@+id/left"
+style="@style/text_bold_red"
+    android:text="@string/cancel"/>
+
+<Space
+    android:layout_width="15dp"
+    android:layout_height="match_parent" />
+
+<TextView
+    android:id="@+id/right"
+    style="@style/text_bold_red"
+    android:text="@string/ok"/>
+
+</LinearLayout>
